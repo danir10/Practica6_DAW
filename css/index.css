@@ -1,0 +1,78 @@
+#Presentacion{
+    margin-top: 2%;
+    color: black;
+    background-size: 100%;
+    font: 150% sans-serif;
+    
+}
+#Presentacion > .card{
+    margin-top: 2%;
+    color: black;
+    background-size: 100%;
+    font: 100% sans-serif;
+    padding: 30PX;
+    background-color: rgba(255, 255, 255,0.8);
+}
+#jugabilidad{
+    margin-top: 2%;
+    color: black;
+    background-size: 100%;
+    font: 150% sans-serif;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("../imagenes/grieta.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#inicio >.card{
+    margin-top: 2%;
+    color: rgb(7, 0, 0);
+    background-size: 100%;
+    font: 120% sans-serif;
+    padding: 30PX;
+    background-color: rgba(255, 255, 255,0.8);
+    
+}
+#video{
+    width: 100%;
+}
+#video2{
+    width: 100%;
+}
+#cinematica >.card{
+    margin-top: 2%;
+    color: rgb(5, 4, 4);
+    background-size: 100%;
+    font: 130% sans-serif;
+    padding: 30PX;
+    background-color: rgba(255, 255, 255,0.8);
+    
+}
+img { 
+width: 15%;
+}
+.titulo{
+    font-family: "serif";
+}
+.parrafo{
+    font-family: "Verdana";
+}
+
+
+
+#jugar{
+	background-color: rgb(27, 189, 6);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
