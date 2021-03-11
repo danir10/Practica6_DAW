@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<title>Letra DNI - Francisco López</title>
+		<style>
+			h1{
+				margin-top: 2rem;
+			}
+			input{
+				margin-bottom: 1rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1>Calcular letra del dni:</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<form method="POST" action="controller">
+				        <input class="form-control" type="number" min="9999999" max="99999999" placeholder="Introduce un dni sin la letra" name="num" required>
+						<button class="btn btn-primary" type="submit">Enviar</button>
+						<a href='./index.html' class='btn btn-warning'>Volver</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
